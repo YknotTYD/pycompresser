@@ -1,0 +1,79 @@
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 11;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+button,
+body {
+
+  background-color: #040024;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  font-family: "Source Code Pro";
+}
+
+#aqua {
+  margin-top: 3%;
+  border: 3px solid #ffffff;
+  padding: 30px;
+  background-color: #05002e;
+}
+
+#info {
+  margin-top: 3%;
+}
+
+button {
+  padding: 10px;
+  border-color: #ffffff;
+  margin-top: 2%;
+  background-color: #05002e;
+}
+
+#linkl {
+  margin-top: 3%;
+  flex-direction: column;
+}
+
+button:hover {
+  background-color: #b30000;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0e1525;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #18233f;
+}
+
+#at {
+  position: fixed;
+  bottom: 0;
+  left: 1vw;
+  font-size: 1vw;
+}
+
+.blue {
+  color: #0091ff;
+}

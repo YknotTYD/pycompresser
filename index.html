@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>pycompresser.py</title>
+  <link href="website_files/style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="website_files/icon.png">
+
+
+  <script src="website_files/brython3_10_2.js">  </script>
+
+</head>
+
+<body>
+
+  <script src="website_files/script.py" type="text/python3"></script>
+
+  <h1 style="margin-top: 3%;">pycompresser.py</h1>
+
+  <p style="width: 40%;">A python file compresser, you can check out its Github repo <a
+      href="https://github.com/YknotTYD/pycompresser" target="_blank">here</a>, download the actual tool for slightly
+    better results and stability.</p>
+
+  <div id="aqua"> Drag and drop a file here.</div>
+  <button id="button">Compress</button>
+
+  <div id="linkl" style="display: none;">
+
+    <p>From <span id="blue0" class="blue"></span> chars to <span id="blue1" class="blue"></span> chars, <span id="blue2"
+        class="blue"></span>.</p>
+
+
+    <a id="link" download="compressed_script.py">compressed_script.py</a>
+
+  </div>
+
+  <p id="at">@YknotTYD</p>
+
+  <script src="website_files/script.js"></script>
+
+  <script>
+    window.onload = function () {
+      brython();
+    };
+  </script>
+
+</body>
+
+</html>
